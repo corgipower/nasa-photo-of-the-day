@@ -1,3 +1,7 @@
+body {
+  font-size: 62.5%;
+}
+
 .App {
   text-align: center;
 }
@@ -5,12 +9,15 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  background-image: url(assets/nature-sky-night-milky-way-127577.jpg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-logo p {
+  color: white;
+  font-size: 5rem;
+  margin: auto;
+  width: 75%;
+  padding-top: 5rem;
 }
 
 .App-header {
