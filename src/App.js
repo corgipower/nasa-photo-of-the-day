@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import PhotoList from "./components/PhotoList";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           NASA Photo of the Day
         </p>
       </div>
+      <PhotoList />
     </div>
   );
 }
